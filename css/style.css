@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+
+.div-table {
+    display: table;
+    width: 100%;
+    height: 60px;
+}
+
+.div-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+
+.content-align-left {
+    text-align: left;
+}
+
+.content-align-right {
+    text-align: right;
+}
+
+.link-circle-btn {
+    padding: 8px;
+}
+
+.link-circle-btn:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #202124;
+    display: inline-block;
+
+    /* Add space between element */
+    margin: 0 .5rem;
+    font-size: 14px;
+}
+
+.link-btn-rectangle {
+    padding: .5rem 1rem;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: white;
+}
+
+.link-btn-rectangle:hover {
+    background-color: #4285f4;
+}
+
+.link-hover-underline:hover {
+    text-decoration: underline;
+}
+
+.grid-menu-size {
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.main-body {
+    text-align: center;
+}
+
+.google-logo-size {
+    width: 21%;
+}
+
+.input-search-wrapper {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.input-search {
+    width: 95%;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    outline-color: transparent;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.input-search:hover {
+    box-shadow: 0 0 .5rem lightgray;
+}
+
+.search-icon {
+    position: absolute;
+    left: 2rem;
+    height: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.speaker-icon {
+    position: absolute;
+    right: 2rem;
+    height: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.link-btn-light-gray {
+    font-size: 14px;
+    display: inline-block;
+    padding: .75rem;
+    background-color: #f8f9fa;
+    color: #202124;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.link-btn-light-gray:hover {
+    border: 1px solid lightgrey;
+}
+
+.top-spacing-btw-ele {
+    margin-top: 1rem;
+}
